@@ -1,0 +1,334 @@
+	* {
+	padding:0;
+	margin: 0:;
+}
+
+#wrapper {
+
+	width: 960px;
+	margin: 20px auto;
+	border: 1px solid #ddd;
+	padding: 30px;
+	border-radius: 6px;
+	min-height: 200px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefcfe+26,f1eff1+100 */
+	background: rgb(254,252,254); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(254,252,254,1) 26%, rgba(241,239,241,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(254,252,254,1) 26%,rgba(241,239,241,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(254,252,254,1) 26%,rgba(241,239,241,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcfe', endColorstr='#f1eff1',GradientType=0 ); /* IE6-9 */
+
+}
+
+#register-login-container {
+	width: 960px;
+	margin: 20px auto;
+}
+
+#register-login-container label {
+	width: 86%;
+	line-height: 36px;
+}
+
+#register-login-container input {
+	float: right;
+	width: 200px;
+
+}
+
+#register-wrapper {
+	width: 500px;
+	margin: 20px 60px 0 0;
+	border: 1px solid #ddd;
+	padding: 30px;
+	border-radius: 6px;
+	min-height: 200px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefcfe+26,f1eff1+100 */
+	background: rgb(254,252,254); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(254,252,254,1) 26%, rgba(241,239,241,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(254,252,254,1) 26%,rgba(241,239,241,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(254,252,254,1) 26%,rgba(241,239,241,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcfe', endColorstr='#f1eff1',GradientType=0 ); /* IE6-9 */
+	float: left;
+}
+#login-wrapper {
+	width: 400px;
+	margin: 20px auto;
+	border: 1px solid #ddd;
+	padding: 30px;
+	border-radius: 6px;
+	min-height: 200px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefcfe+26,f1eff1+100 */
+	background: rgb(254,252,254); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(254,252,254,1) 26%, rgba(241,239,241,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(254,252,254,1) 26%,rgba(241,239,241,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(254,252,254,1) 26%,rgba(241,239,241,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcfe', endColorstr='#f1eff1',GradientType=0 ); /* IE6-9 */
+	float: left;
+}
+
+
+
+h1{
+	text-align: center;
+	margin-bottom: 50px !important;
+	margin-top: 0px !important;
+}
+
+h2{
+	font-weight: normal !important;
+}
+
+h3 {
+	font-weight: normal;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 0px !important;
+}
+
+
+.success-login-message {
+	color: green;
+}
+
+.error-login-message {
+	color: red;
+}
+
+.top-bar span {
+	font-weight: normal;
+	font-size: 14px;
+}
+.top-bar ul{
+	
+	float: right;
+	vertical-align: top;
+}
+
+.top-bar ul li {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+.top-bar ul a {
+	display: block;
+	text-decoration: underline;
+}
+	
+#people-poked {
+	width: 300px;
+	border: 1px solid #999;
+	border-radius: 4px;
+	background-color: #fff;
+	min-height: 100px;
+	padding: 7px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}	
+
+table th, table td {
+
+padding-left: 8px;
+
+}
+
+table td:last-child {
+	height: 50px !important;
+	text-align: center; 
+}
+
+#recent-book-reviews {
+	float: left;
+	width: 500px;
+	margin-right: 85px;
+
+}
+h4 {
+	font-weight: bold;
+	margin-top: 30px;
+	font-size: 15px;
+
+}
+
+#recent-book-reviews .book {
+	margin-left:20px;
+	margin-top: 30px;
+}
+
+.book .posted-date {
+	font-style: italic;
+	font-size: 12px;
+}
+
+.book a.recent-book {
+	font-size: 17px;
+	text-decoration: underline;
+	display: block;
+}
+
+.book span.rating {
+
+	font-size: 13px;
+	display: block;
+	margin-bottom: 7px;
+	margin-top: 5px;
+
+}
+
+#book-review {
+	float: left;
+	width: 500px;
+	margin-right: 85px;
+}
+
+#book-review a.delete-review {
+	margin: 20px 0 0 25px;
+	display: block;
+}
+
+#book-review .review {
+	margin-left:20px;
+	margin-top: 30px;
+	border-top:1px solid #888;
+	border-bottom:1px solid #888; 
+	padding: 10px 0;
+
+}
+
+
+
+
+.review .posted-date {
+	font-style: italic;
+	font-size: 12px;
+}
+
+
+.review span.rating {
+
+	font-size: 13px;
+	display: block;
+	margin-bottom: 7px;
+	margin-top: 5px;
+
+}
+
+#add-review {
+
+	float: left;
+	width: 290px;
+}
+
+
+#add-review .form-control {
+
+	min-height: 100px;
+}
+
+#add-review form label {
+	margin-top: 20px;
+	font-weight: normal;
+}
+
+#other-books {
+
+	float: left;
+	width: 290px;
+}	
+
+#other-books div {
+	border: 1px solid #888;
+	height: 200px;
+	overflow: scroll;
+	margin-left: 25px;
+
+}
+
+#register-login-container #submit-button {
+	float: right;
+	margin-top: 10px;
+	width: 85px;
+	margin-right: 45px;
+}	
+
+
+#add-book-wrapper {
+	width: 960px;
+	margin: 20px auto;
+	border: 1px solid #ddd;
+	padding: 30px;
+	border-radius: 6px;
+	min-height: 200px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefcfe+26,f1eff1+100 */
+	background: rgb(254,252,254); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(254,252,254,1) 26%, rgba(241,239,241,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(254,252,254,1) 26%,rgba(241,239,241,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(254,252,254,1) 26%,rgba(241,239,241,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcfe', endColorstr='#f1eff1',GradientType=0 ); /* IE6-9 */
+}
+
+#add-book-wrapper #main {
+	margin: 0 auto;
+	width: 850px;
+}
+
+form#add-book-review label {
+	display: block;
+	margin-top: 18px;
+}
+
+form#add-book-review label label.sub-label{
+	font-weight: normal;
+	margin-left: 20px;
+	vertical-align: top
+}
+
+form#add-book-review label label.sub-label input, form#add-book-review label label.sub-label select {
+
+	margin-left: 20px;
+}
+
+
+form#add-book-review label label.sub-label .form-control {
+
+	width: 250px;
+	display: inline-block;
+	vertical-align: top
+}
+
+form#add-book-review .form-control {
+
+	width: 400px;
+}
+
+
+.users-wrapper .head{
+    margin-left: 20px;
+    margin-bottom:45px;
+}
+
+.users-wrapper .head p {
+
+  line-height: 23px;
+  margin-top: 15px;
+}
+.users-wrapper .user-box{
+    margin-left: 20px;
+}
+
+.users-wrapper .user-box ul li {
+  list-style-type: none;
+  vertical-align: top;
+}	
+	
+#submit-button {
+	float: right;
+	margin-top: 10px;
+	width: 85px;
+
+}
+.clr {
+	clear: both;
+}
+
